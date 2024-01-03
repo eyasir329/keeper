@@ -32,8 +32,11 @@ footer {
   height: 2.5rem;
 }
 
-footer p {
-  color: #ccc;
+footer p,a {
+  color: #ada7a7;
+}
+footer a:hover {
+  color: #000;
 }
 .note {
   background: #fff;
