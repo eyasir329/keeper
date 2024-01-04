@@ -32,11 +32,16 @@ footer {
   height: 2.5rem;
 }
 
-footer p,a {
+footer p{
   color: #ada7a7;
 }
+a,.copyright{
+  text-decoration: none;
+  color: #f56213;
+  font-weight: 100;
+}
 footer a:hover {
-  color: #000;
+  color: rgb(0, 0, 0);
 }
 .note {
   background: #fff;

@@ -5,7 +5,7 @@ const getCurrentYear = new Date().getFullYear();
 function Footer(){
     return (
         <footer>
-            <p>Copyright ⓒ 2023-{getCurrentYear} by <a href="eyasir329.com">eyasir329</a></p>
+            <p>Copyright <span className="copyright">ⓒ</span><a href=" eyasir329.com" target="_blank"> eyasir329</a> 2023-{getCurrentYear}</p>
         </footer>
     );
 }
